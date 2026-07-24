@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,700;0,800;0,900;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+}
+
+/* Custom scrollbar and select glow styles */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #E67E22;
+  color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border: 2px solid #0A0A0A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E67E22;
+}
+
+/* Base global transitions */
+body {
+  font-family: var(--font-sans);
+  background-color: #000000;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
