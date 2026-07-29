@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="64" fill="#0A0A0A" />
+  <rect x="24" y="24" width="464" height="464" rx="48" fill="none" stroke="#E67E22" stroke-width="12" opacity="0.3" />
+  <g transform="translate(98, 116)">
+    <!-- E Monogram -->
+    <path d="M 0 0 L 140 0 L 140 48 L 54 48 L 54 116 L 126 116 L 126 164 L 54 164 L 54 232 L 144 232 L 144 280 L 0 280 Z" fill="#FFFFFF"/>
+    <!-- N Monogram -->
+    <path d="M 160 0 H 210 L 270 210 V 0 H 316 V 280 H 266 L 206 70 V 280 H 160 Z" fill="#E67E22"/>
+  </g>
+</svg>
