@@ -14,6 +14,7 @@ import {
   MapPin, 
   Linkedin, 
   Facebook, 
+  Youtube,
   Send, 
   ArrowRight, 
   ArrowUp,
@@ -686,6 +687,19 @@ export default function App() {
                   >
                     <Facebook className="w-4 h-4" />
                   </a>
+                  <a 
+                    href="https://youtube.com/@emmanuel_nwigwe?si=Jmcfyun8Ju0b8nil" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className={`w-10 h-10 rounded-none border flex items-center justify-center transition-all cursor-pointer ${
+                      isLight 
+                        ? 'bg-gray-100 border-gray-300 text-gray-800 hover:text-black hover:bg-[#E67E22] hover:border-[#E67E22]' 
+                        : 'bg-black border-white/5 text-white hover:text-black hover:bg-[#E67E22] hover:border-[#E67E22]'
+                    }`}
+                    title="YouTube Channel"
+                  >
+                    <Youtube className="w-4 h-4" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -880,6 +894,19 @@ export default function App() {
               title="Facebook"
             >
               <Facebook className="w-3.5 h-3.5" />
+            </a>
+            <a 
+              href="https://youtube.com/@emmanuel_nwigwe?si=Jmcfyun8Ju0b8nil" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className={`w-8 h-8 rounded-none border flex items-center justify-center transition-all cursor-pointer ${
+                isLight 
+                  ? 'bg-white border-gray-300 text-gray-600 hover:text-[#E67E22] hover:border-[#E67E22]' 
+                  : 'bg-[#121212] border-white/5 text-gray-400 hover:text-[#E67E22] hover:border-[#E67E22]'
+              }`}
+              title="YouTube"
+            >
+              <Youtube className="w-3.5 h-3.5" />
             </a>
           </div>
 
